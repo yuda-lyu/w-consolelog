@@ -1,6 +1,6 @@
 {
   "name": "w-consolelog",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A console.log for browser.",
   "main": "dist/w-consolelog.umd.js",
   "dependencies": {

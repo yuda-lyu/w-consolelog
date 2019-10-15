@@ -72,6 +72,13 @@ function logItems(...args) {
 
 }
 
+
+/**
+ * 前端通過body元素展示console.log的數據，可包含Json樹狀物件資料
+ *
+ * @export
+ * @param {*} args 輸入任意數據, 可輸入多組數據
+ */
 function consolelog(...args) {
 
     //setTimeout, 產生時可能放於head的script, 會沒有body, 故需要delay才產生
