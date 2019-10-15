@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-tw">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <title>small data for w-consolelog</title>
+    
+    <script src="../dist/w-consolelog.umd.js"></script>
+
+    <script>
+        let log=window['w-consolelog']
+        let data1={a1:123,a2:123.456,s1:'123',s2:'xyz',b1:true,f1:function(){},c1:[1.2,3.4,'5.6',false,function(){}],d1:{cid:'WK2WHS',name:'peter',unique:false,fun:function(){}}}
+        let data2=[{"name":"Francesca Suarez","gender":"female","company":"BIOSPAN","email":"francescasuarez@biospan.com","phone":"+1 (807) 532-3386","address":"450 Lincoln Road, Greenfields, Texas, 3312","about":"Veniam et duis labore consectetur ipsum. Ad occaecat consequat ex ut laboris ut aliquip qui laborum qui magna. Pariatur exercitation elit enim anim aute commodo minim. Esse laborum aute nisi deserunt aliquip anim adipisicing eu dolore esse esse non laboris mollit. Officia aliquip velit consequat eiusmod dolore amet non ullamco eu do fugiat tempor.\r\n","tags":["enim","duis","officia","voluptate","ipsum","enim","reprehenderit"],"friends":[{"id":0,"name":"Good Dodson"},{"id":1,"name":"Latoya Vang"},{"id":2,"name":"Hale Holcomb"}],"greeting":"Hello, Francesca Suarez! You have 1 unread messages.","favoriteFruit":"apple"},{"name":"Compton Farmer","gender":"male","company":"SCENTRIC","email":"comptonfarmer@scentric.com","phone":"+1 (894) 464-3012","address":"325 McDonald Avenue, Kent, Maine, 816","about":"Veniam sit non duis eu Lorem officia id quis consequat esse fugiat. Id est esse sunt aute veniam. Deserunt cupidatat magna incididunt consectetur culpa consectetur tempor ea ea irure velit. Elit consequat culpa exercitation dolor anim tempor ea amet et non occaecat incididunt id.\r\n","tags":["fugiat","labore","elit","deserunt","aute","nostrud","officia"],"friends":[{"id":0,"name":"Jodi Powell"},{"id":1,"name":"Frankie Waller"},{"id":2,"name":"Ada Buck"}],"greeting":"Hello, Compton Farmer! You have 2 unread messages.","favoriteFruit":"strawberry"}]
+        log(123,'abc123',true,false,function(){})
+        log(data1,123,'abc123',true,false,function(){})
+        log(data2,true,false,function(){},123,'abc123')
+    </script>
+
+</head>
+<body style="font-size:10pt; font-family:Microsoft JhengHei,Helvetica;">
+</body>
+</html>

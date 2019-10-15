@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-tw">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <title>large data for w-consolelog</title>
+    
+    <script src="https://cdn.jsdelivr.net/npm/w-consolelog@1.0.0/dist/w-consolelog.umd.js"></script>
+
+    <script src="data.js"></script>
+    
+    <script>
+        let log=window['w-consolelog']
+        log(123,'abc123',true,false,function(){})
+        log(data,123,'abc123',true,false,function(){})
+    </script>
+
+</head>
+<body style="font-size:10pt; font-family:Microsoft JhengHei,Helvetica;">
+</body>
+</html>
