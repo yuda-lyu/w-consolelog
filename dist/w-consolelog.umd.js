@@ -1,5 +1,5 @@
 /*!
- * w-consolelog v1.0.3
+ * w-consolelog v1.0.4
  * (c) 2018-2019 yuda-lyu(semisphere)
  * Released under the MIT License.
  */
