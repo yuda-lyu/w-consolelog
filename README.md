@@ -36,7 +36,7 @@ log(123,'abc123',data,true,false,function(){})
 ### In a browser(UMD module):
 Add script for w-consolelog.
 ```alias
-<script src="https://cdn.jsdelivr.net/npm/w-consolelog@1.0.6/dist/w-consolelog.umd.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/w-consolelog@1.0.7/dist/w-consolelog.umd.js"></script>
 ```
 Directly use:
 ```alias
