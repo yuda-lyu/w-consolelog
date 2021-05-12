@@ -19,7 +19,7 @@ To view some examples for more understanding, visit examples:
 
 ## Installation
 ### Using npm(ES6 module):
-> **Note:** w-consolelog does't depend on any package.
+> **Note:** w-consolelog is not dependent on any package.
 ```alias
 npm i w-consolelog
 ```

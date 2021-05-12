@@ -4,14 +4,14 @@
   "description": "A console.log for browser.",
   "main": "dist/w-consolelog.umd.js",
   "dependencies": {
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "w-jsonview-tree": "^1.0.24"
   },
   "devDependencies": {
-    "w-package-tools": "^1.0.25"
+    "w-package-tools": "^1.0.54"
   },
   "scripts": {
-    "test": "./node_modules/.bin/mocha --require @babel/register",
+    "test": "mocha --parallel --timeout 60000 --experimental-modules --es-module-specifier-resolution=node",
     "deploy": "gh-pages -d docs"
   },
   "repository": {
