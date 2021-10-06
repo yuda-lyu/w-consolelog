@@ -3,7 +3,6 @@ A console.log for browser.
 
 ![language](https://img.shields.io/badge/language-JavaScript-orange.svg) 
 [![npm version](http://img.shields.io/npm/v/w-consolelog.svg?style=flat)](https://npmjs.org/package/w-consolelog) 
-[![Build Status](https://travis-ci.org/yuda-lyu/w-consolelog.svg?branch=master)](https://travis-ci.org/yuda-lyu/w-consolelog) [![license](https://img.shields.io/npm/l/w-consolelog.svg?style=flat)](https://npmjs.org/package/w-consolelog) 
 [![gzip file size](http://img.badgesize.io/yuda-lyu/w-consolelog/master/dist/w-consolelog.umd.js.svg?compression=gzip)](https://github.com/yuda-lyu/w-consolelog)
 [![npm download](https://img.shields.io/npm/dt/w-consolelog.svg)](https://npmjs.org/package/w-consolelog) 
 [![jsdelivr download](https://img.shields.io/jsdelivr/npm/hm/w-consolelog.svg)](https://www.jsdelivr.com/package/npm/w-consolelog)
