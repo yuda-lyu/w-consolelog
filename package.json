@@ -1,14 +1,14 @@
 {
   "name": "w-consolelog",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "A console.log for browser.",
   "main": "dist/w-consolelog.umd.js",
   "dependencies": {
     "lodash": "^4.17.21",
-    "w-jsonview-tree": "^1.0.26"
+    "w-jsonview-tree": "^1.0.27"
   },
   "devDependencies": {
-    "w-package-tools": "^1.0.59"
+    "w-package-tools": "^1.0.65"
   },
   "scripts": {
     "test": "mocha --parallel --timeout 60000 --experimental-modules --es-module-specifier-resolution=node",
