@@ -1,13 +1,13 @@
 {
   "name": "w-consolelog",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "main": "dist/w-consolelog.umd.js",
   "dependencies": {
-    "lodash": "^4.17.21",
-    "w-jsonview-tree": "^1.0.29"
+    "lodash-es": "^4.17.21",
+    "w-jsonview-tree": "^1.0.30"
   },
   "devDependencies": {
-    "w-package-tools": "^1.0.69"
+    "w-package-tools": "^1.0.73"
   },
   "scripts": {
     "test": "mocha --parallel --timeout 60000 --experimental-modules --es-module-specifier-resolution=node",
