@@ -1,11 +1,11 @@
 import jv from 'w-jsonview-tree/src/WJsonviewTree.mjs'
-import map from 'lodash-es/map'
-import each from 'lodash-es/each'
-import join from 'lodash-es/join'
-import isNumber from 'lodash-es/isNumber'
-import isString from 'lodash-es/isString'
-import isBoolean from 'lodash-es/isBoolean'
-import isFunction from 'lodash-es/isFunction'
+import map from 'lodash-es/map.js'
+import each from 'lodash-es/each.js'
+import join from 'lodash-es/join.js'
+import isNumber from 'lodash-es/isNumber.js'
+import isString from 'lodash-es/isString.js'
+import isBoolean from 'lodash-es/isBoolean.js'
+import isFunction from 'lodash-es/isFunction.js'
 
 
 let n = 0 //自產id編號
