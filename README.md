@@ -3,7 +3,6 @@ A console.log for browser.
 
 ![language](https://img.shields.io/badge/language-JavaScript-orange.svg) 
 [![npm version](http://img.shields.io/npm/v/w-consolelog.svg?style=flat)](https://npmjs.org/package/w-consolelog) 
-[![gzip file size](http://img.badgesize.io/yuda-lyu/w-consolelog/master/dist/w-consolelog.umd.js.svg?compression=gzip)](https://github.com/yuda-lyu/w-consolelog)
 [![npm download](https://img.shields.io/npm/dt/w-consolelog.svg)](https://npmjs.org/package/w-consolelog) 
 [![npm download](https://img.shields.io/npm/dm/w-consolelog.svg)](https://npmjs.org/package/w-consolelog) 
 [![jsdelivr download](https://img.shields.io/jsdelivr/npm/hm/w-consolelog.svg)](https://www.jsdelivr.com/package/npm/w-consolelog)
@@ -18,6 +17,7 @@ To view some examples for more understanding, visit examples:
 > **large data:** [ex-large.html](https://yuda-lyu.github.io/w-consolelog/examples/ex-large.html) [[source code](https://github.com/yuda-lyu/w-consolelog/blob/master/docs/examples/ex-large.html)]
 
 ## Installation
+
 ### Using npm(ES6 module):
 > **Note:** w-consolelog is not dependent on any package.
 ```alias
@@ -34,10 +34,12 @@ log(123,'abc123',data,true,false,function(){})
 ```
 
 ### In a browser(UMD module):
+
 Add script for w-consolelog.
 ```alias
 <script src="https://cdn.jsdelivr.net/npm/w-consolelog@1.0.14/dist/w-consolelog.umd.js"></script>
 ```
+
 Directly use:
 ```alias
 let log=window['w-consolelog']
