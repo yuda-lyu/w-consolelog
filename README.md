@@ -37,7 +37,7 @@ log(123,'abc123',data,true,false,function(){})
 
 Add script for w-consolelog.
 ```alias
-<script src="https://cdn.jsdelivr.net/npm/w-consolelog@1.0.21/dist/w-consolelog.umd.js"></script>
+<script src="https://yuda-lyu.github.io/w-consolelog/dist/w-consolelog.umd.js"></script>
 ```
 
 Directly use:
